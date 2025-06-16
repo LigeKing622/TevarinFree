@@ -43,9 +43,9 @@ import java.nio.file.StandardCopyOption;
 @Getter
 @Setter
 public class Client {
-    public static String name = "Tevarin";
-    public static String version = "1.0";
-    public static final Boolean Verify = true;
+    public static String name = "于大刚喜欢";
+    public static String version = "李梦希";
+    public static final Boolean Verify = false;
     public static final String Verify_http = "https://gitee.com/yu-dagang-1337/tevarin-client-by-yu-dagang/raw/master/Hwid";
     public static Client instance;
     public static final String location = AutoDiYuQiShi.getLocation();
@@ -153,7 +153,7 @@ public class Client {
             trayIcon = new TrayIcon(imageIcon.getImage());
             if (SystemTray.isSupported()) {
                 trayIcon.setImageAutoSize(true);
-                trayIcon.setToolTip("Tevarin " + version + " made by ??? with ❤~");
+                trayIcon.setToolTip("Love " + version + " LMX");
                 PopupMenu popupMenu = new PopupMenu("Client settings");
                 Menu moduleMenu = new Menu("Modules");
                 for (Module module : moduleManager.getModuleMap().values()) {
